@@ -5,7 +5,6 @@ export const receiveTodos = (todos) => {
     const action = {
         type: RECEIVE_TODOS,
         todos,
-
     }
     return action;
 }
